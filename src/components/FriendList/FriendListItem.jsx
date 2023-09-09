@@ -1,4 +1,3 @@
-import { FriendsList } from "./FriendList";
 import { FriendsItem, FriendSpan } from "./FriendList.styled";
 import PropTypes from "prop-types";
 
