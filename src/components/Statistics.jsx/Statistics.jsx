@@ -5,7 +5,9 @@ import { StatisticsList, StatisticsTitle, StatisticsItem } from "./Statistics.st
 export const Statistics = ({ title, stats }) => {
     return (
         <SectionStatistics>
+            {title && (
                 <StatisticsTitle>{title}</StatisticsTitle>
+            )}
                 <StatisticsList>
                     {stats.map(({ id, label, percentage }) => {
                         return <StatisticsItem key={id}>
